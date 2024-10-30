@@ -15,7 +15,8 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 34
+    namespace "flutter.plugins.contactsservice.contactsserviceexample"
 
     lintOptions {
         disable 'InvalidPackage'
